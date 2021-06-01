@@ -2,11 +2,12 @@ body {
     background-color: #282a36;
 }
 
-#mainHeader {
+#top {
     background-color: #44475a;
-    position: relative;
-    top: 0px;
     width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
 }
 
 #logoWrapper {
@@ -17,7 +18,8 @@ body {
 
 #logoImage {
     padding-top: 10px;
-    padding-left: 50px;
+    padding-left: 10px;
+    padding-top: 5px;
     float:left;
 }
 
