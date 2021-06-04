@@ -88,7 +88,6 @@ body {
     left: 0;
     max-width: 100%; 
     text-decoration: none;
-    overflow: hidden;
     opacity: 0.6;
     transition: 0.3s;
     }
@@ -110,6 +109,18 @@ body {
     filter: contrast(0.9) brightness(0.8) saturate(0.8) grayscale(0.2);
 }
 
+.itemBackground::after {
+    content: '';
+    border: 1px solid #8b8b8b;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 8px;
+}
+
+
 .itemContent {
     display: flex;
 }
@@ -124,9 +135,21 @@ body {
 }
 
 
-.itemHeader {
+.itemTitle {
     color: #111111;
 }
+
+a[href] .itemContent .itemTitle::after {
+    content: '';
+    background-image: url(assets/icons/tab.svg);
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-size: 100% 100%;
+    opacity: 0.9;
+    margin-left: 0.5em;
+}
+
 
 .itemDescription {
     color: #141414;
