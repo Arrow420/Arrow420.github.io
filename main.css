@@ -9,6 +9,7 @@ body {
     z-index: 0;
 }
 
+
 #navbar {
     background-color: #44475a;
     width: 100%;
@@ -47,17 +48,19 @@ body {
 }
 
 #about {
-    color: #f8f8f8;
+    color: #c4c4c4;
     font-size: 16px;
     font-weight: 600;
     float: right;
     position: relative;
     right: 55px;
     bottom: 38px;
+    opacity: 0.8;
 }
 
 #about:hover {
     color: #bd93f9;
+    opacity: 1.0;
 }
 
 
@@ -130,7 +133,7 @@ body {
     display: block;
     z-index: 1;
     padding: 1rem;
-    font-size: 1rem;
+    font-size: 1.06rem;
     flex: 1;
 }
 
