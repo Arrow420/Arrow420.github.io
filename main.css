@@ -50,18 +50,18 @@ body {
 }
 
 #about {
-    color: #c4c4c4;
+    color: #cfcfcf;
     font-size: 16px;
     font-weight: 600;
     float: right;
     position: relative;
     right: 55px;
     top: 18px;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 #about:hover {
-    color: #bd93f9;
+    color: #c298fc;
     opacity: 1.0;
 }
 
@@ -166,6 +166,11 @@ a[href] .itemContent .itemTitle::after {
 
 /*RUOKABOT*/
 
+#ruokabot {
+    width: 100%;
+    height: 1vh;
+}
+
 #iphone {
     width: 250px;
     position: relative;
@@ -185,8 +190,8 @@ a[href] .itemContent .itemTitle::after {
     font-family: Open Sans;
     font-weight: 600;
     color: #f5f5f5;
-    font-size: 34px;
-    position:absolute;
+    font-size: 2.2rem;
+    position: absolute;
     left: 635px;
     top: 160px;
 }
@@ -200,10 +205,51 @@ a[href] .itemContent .itemTitle::after {
     position: relative;
     left: 460px;
     bottom: 240px;
+    overflow: hidden
+}
+
+#ruokaIcons {
+    width: 500px;
+    height: 50px;
+    position: relative;
+    bottom: 130px;
+    left: 455px;
+
+}
+
+.ruokaLink {
+    color: #cfcfcf;
+    text-decoration: none;
+    padding-right: 20px;
+    opacity: 0.9;
+}
+
+.ruokaLink:hover {
+    color: #c298fc;
+    opacity: 1.0;
+}
+
+.ruokaLogo {
+    width: 50px;
+    height: 50px;
 }
 
 
+.ruokaLinkText {
+    position: relative;
+    bottom: 18px;
+}
 
-/*OPINAIKABOT*/
+#githubLogo {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    width: 46px;
+    height: 46px;
+    padding-bottom: 4px;
+    padding-right: 6px;    
+}
 
 
+#discordLogo {
+    filter: brightness(0.9)
+}
