@@ -269,6 +269,8 @@ a[href] .itemContent .itemTitle::after {
 #footer {
     min-height: 140px;
     height: 140px;
+    width: 100%;
+    min-width: 980px;
     background: #44475A;
     margin-top: auto;
     overflow: hidden;
