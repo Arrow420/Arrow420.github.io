@@ -284,35 +284,58 @@ a[href] .itemContent .itemTitle::after {
     overflow: hidden;
 }
 
-
-.footerIcon {
-    width: 32px;
-    height: 32px;
-    background-size: 100% 100%;
+#footerAboutHeader {
+    color: #f5f5f5;
+    display: block;
+    font-size: 1rem;
     position: relative;
-    left: 50px;
-    top: 10px;
+    bottom: 85px;
+    left: 70%;
 }
-
-#footerGithub {
-    float: left;
-    background-image: url(assets/icons/github_square.svg);
-}
-
-#footerEmail {
-    background-image: url(assets/icons/email-button.svg);
-    padding-left: 80px;
-}
-
-
-#footerCopyright {
-    float: right;
-    color: #758aac;
+#footerAboutContent {
+    color: #91989C;
     display: block;
     font-size: 0.9rem;
     position: relative;
-    top: 80px;
-    right: 25px;
-    opacity: 0.6;
+    bottom: 85px;
+    left: 70%;
 }
-
+.footerIconText {
+    color: #f5f5f5;
+    display: block;
+    font-size: 1rem;
+    position: relative;
+    top: 25px;
+    padding-left: 8%;
+    padding-top: 20px;
+}
+#footerLocation::before {
+    content: '';
+    background-image: url(assets/icons/location.svg);
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-size: 100% 100%;
+    margin-right: 0.8em;   
+}
+#footerEmail::before {
+    content: '';
+    background-image: url(assets/icons/email.svg);
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-size: 100% 100%;
+    margin-right: 0.8em;   
+}
+#footerEmail:hover {
+    color: #c298fc;    
+}
+#footerCopyright::before {
+    content: '';
+    background-image: url(assets/icons/copyright.svg);
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-size: 100% 100%;
+    margin-right: 0.8em;  
+}
