@@ -284,51 +284,26 @@ a[href] .itemContent .itemTitle::after {
     overflow: hidden;
 }
 
-#footerGithub {
-    float: right;
-    background-image: url(assets/icons/github_square.svg);
+
+.footerIcon {
     width: 32px;
     height: 32px;
     background-size: 100% 100%;
     position: relative;
-    right: 20%;
+    left: 50px;
+    top: 10px;
 }
 
-.footerIconText {
-    color: #f5f5f5;
-    display: block;
-    font-size: 1rem;
-    position: relative;
-    top: 25px;
-    padding-left: 8%;
-    padding-top: 20px;
-
+#footerGithub {
+    float: left;
+    background-image: url(assets/icons/github_square.svg);
 }
 
-#footerLocation::before {
-    content: '';
-    background-image: url(assets/icons/location.svg);
-    width: 16px;
-    height: 16px;
-    display: inline-block;
-    background-size: 100% 100%;
-    margin-right: 0.8em;   
+#footerEmail {
+    background-image: url(assets/icons/email-button.svg);
+    padding-left: 80px;
 }
 
-#footerEmail::before {
-    content: '';
-    background-image: url(assets/icons/email.svg);
-    width: 16px;
-    height: 16px;
-    display: inline-block;
-    background-size: 100% 100%;
-    margin-right: 0.8em;   
-}
-
-
-#footerEmail:hover {
-    color: #c298fc;    
-}
 
 #footerCopyright {
     float: right;
@@ -336,8 +311,8 @@ a[href] .itemContent .itemTitle::after {
     display: block;
     font-size: 0.9rem;
     position: relative;
-    top: 16%;
-    right: 2%;
+    top: 80px;
+    right: 25px;
     opacity: 0.6;
 }
 
