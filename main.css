@@ -9,18 +9,17 @@
 }
 
 ::-webkit-scrollbar-track {
-    border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.1);
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #565868;
+    background-color: #6885bb;
     border-radius: 10px;
 }
 
 html {
     height: 100%;
-    margin: 0;
+    margin: 0;  
 }
 
 body {
@@ -30,7 +29,6 @@ body {
     height: 100%;
     margin: 0;
 }
-
 
 #page {
     min-height: 100%;
@@ -296,43 +294,52 @@ a[href] .itemContent .itemTitle::after {
 #footer {
     margin-top: -30px;
     height: 140px;
+    width: 100%;
     background: #44475A;
-    overflow: hidden;
 }
 
 #footerGrid {
     height: 100%;
-    display: grid;
-    grid-column-gap: 100px;
-    grid-template-columns: repeat(3, 1fr);
-    width: 1200px;
-    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    clear: both;
+    margin: 0;
 }
 
 
 #footerLeftWrapper {
-    
-    max-width: 400px;
-    position: relative;
-    overflow: hidden;
-    background-color:aquamarine;
+    width: 300px;
+    /*background-color:aquamarine;*/
 }
-
 
 #footerMiddleWrapper {
-    max-width: 400px;
-    position: relative;
-    overflow: hidden;
-    background-color: #c298fc;
-    
+    width: 300px;
+    /*background-color: #c298fc;*/
 }
-
 
 #footerRightWrapper {    
-    height: 100%;
-    max-width: 400px;
-    position: relative;
-    overflow: hidden;
-    background-color: cornflowerblue;
+    width: 300px;
+    /*background-color: cornflowerblue;*/
 }
 
+
+#footerIllustration {
+    width: 150px;
+    position: relative;
+    left: 75px;
+    top: 15px;
+}
+
+.footerIcon {
+    width: 38px;
+    height: 38px;
+    text-decoration: none;
+    position: relative;
+    left: 150px;
+    top: 20px;
+    margin-right: 10px;
+    border: none;
+    text-decoration: none;
+}
