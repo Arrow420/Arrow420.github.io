@@ -17,6 +17,7 @@
     border-radius: 10px;
 }
 
+
 html {
     height: 100%;
     margin: 0;  
@@ -98,10 +99,10 @@ body {
 
 #projectsHeader {
     position: relative;
-    top: 180px;
+    top: 160px;
     text-align: center;
     color: #f8f8f8;
-    font-size: 22px;
+    font-size: 1.4rem;
 }
 
 #projectsGrid {
@@ -112,7 +113,7 @@ body {
     padding: 10px;
     width: 550px;
     position: relative;
-    top: 190px;
+    top: 170px;
     margin: auto;
 }
 
@@ -202,6 +203,7 @@ a[href] .itemContent .itemTitle::after {
     clear: both;
     margin: auto;
     overflow: hidden;
+    padding-bottom: 20px;
 }
 
 #iphone {
