@@ -3,7 +3,7 @@
 
 
 
-/* SCROLLBAR */
+/* SCROLLBAR FOR CHROME */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -108,6 +108,7 @@ body {
 #projectsGrid {
     display: grid;
     grid-column-gap: 15px;
+    grid-row-gap: 15px;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: auto;
     padding: 10px;
@@ -126,7 +127,7 @@ body {
     text-decoration: none;
     opacity: 0.6;
     transition: 0.3s;
-    }
+}
 
 .item:hover {
     opacity: 1.0;
@@ -410,17 +411,17 @@ a[href] .itemContent .itemTitle::after {
 
 #footerLeftWrapper {
     width: 300px;
-    /*background-color:aquamarine;*/
+    /*background-color:#637D74;*/
 }
 
 #footerMiddleWrapper {
     width: 300px;
-    /*background-color: #c298fc;*/
+    /*background-color: #B9A997;*/
 }
 
 #footerRightWrapper {    
     width: 300px;
-    /*background-color: cornflowerblue;*/
+    /*background-color: #BCDBDB;*/
 }
 
 
@@ -449,9 +450,79 @@ a[href] .itemContent .itemTitle::after {
 
 #footerCopyright {
     color: #f5f5f5;
-    opacity: 0.3;
+    opacity: 0.35;
     font-size: 0.85rem;
     position: relative;
     left: 15px;
     top: 108px;
+}
+
+
+/* MOBILE */
+
+@media only screen and (max-width: 1040px) {
+    
+    #projects {
+        padding-bottom: 180px;
+    }
+    
+    #projectsHeader {
+        position: relative;
+        top: 90px;
+        font-size: 1.25rem;
+    }
+
+    #projectsGrid {
+        grid-template-columns: repeat(1, 1fr);
+        width: 80%;
+        max-width: 340px;
+        position: relative;
+        top: 105px;
+    }
+    
+    #footer {
+        margin-top: 50px;
+        height: 220px;
+        max-width: 1040px;
+    }
+    
+    #footerLeftWrapper {
+        width: 1/3%;
+        /*background-color:#637D74;
+    }
+    
+    #footerMiddleWrapper {
+        width: 1/3%;
+        /*background-color: #B9A997;*/
+    }
+    
+    #footerRightWrapper {    
+        width: 1/3%;
+        /*background-color: #BCDBDB;*/
+    }
+    #footerIllustration {
+        width: 160px;
+        position: relative;
+        left: 0;
+        top: 50px;
+    }
+    
+    .footerIcon {
+        float: right;
+        width: 32px;
+        height: 32px;
+        left: -5px;
+        top: 170px;
+        margin-right: 5px;
+    }
+    
+    #footerCopyright {
+        float: left;
+        color: #ff0000;
+        opacity: 0.5;
+        font-size: 0.8rem;
+        top: 170px;
+        left: 5px;
+        display: block;
+    }
 }
