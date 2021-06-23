@@ -333,7 +333,7 @@ a[href] .itemContent .itemTitle::after {
     float: left;
     width: 72px;
     position: relative;
-    top: 55px;
+    top: 54px;
     left: 470px;
     display: block;
 }
