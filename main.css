@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css2?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu');
 
 
 
@@ -52,7 +53,7 @@ body {
     overflow: hidden;
     position: relative;
     top: 0;
-    left: 0;
+    left: 5px;
 }
 
 #logoImage {
@@ -65,15 +66,15 @@ body {
 
 #logoText {
     color: #f5f5f5;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     float: left;
-    font-family: Open Sans;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 600;
     padding-left: 10px;
     margin-left: auto;
     position: relative;
     left: 30px;
-    bottom: 1px;
+    bottom: 2px;
 }
 
 #about {
@@ -227,13 +228,13 @@ a[href] .itemContent .itemTitle::after {
 }
 
 #ruokaTitle {
-    font-family: Open Sans;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 600;
     color: #f5f5f5;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     position: relative;
-    bottom: 21px;
-    padding-left: 15px;
+    bottom: 20px;
+    padding-left: 12px;
 }
 
 #ruokaDescription {
@@ -324,10 +325,10 @@ a[href] .itemContent .itemTitle::after {
 
 
 #opinaikaTitle {
-    font-family: Open Sans;
-    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
     color: #f5f5f5;
-    font-size: 1.88rem;
+    font-size: 2.0rem;
     position: relative;
     top: 50px;
     text-align: center;
@@ -335,10 +336,10 @@ a[href] .itemContent .itemTitle::after {
 
 #opinaikaLogo {
     float: left;
-    width: 72px;
+    width: 78px;
     position: relative;
-    top: 54px;
-    left: 470px;
+    top: 50px;
+    left: 465px;
     display: block;
 }
 
